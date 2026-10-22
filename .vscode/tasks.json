@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flutter: buscar dependencias",
+      "type": "process",
+      "command": "flutter",
+      "args": [
+        "pub",
+        "get"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Flutter: analisar codigo",
+      "type": "process",
+      "command": "flutter",
+      "args": [
+        "analyze"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Flutter: executar testes",
+      "type": "process",
+      "command": "flutter",
+      "args": [
+        "test"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Dart: formatar arquivos",
+      "type": "process",
+      "command": "dart",
+      "args": [
+        "format",
+        "lib",
+        "test"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

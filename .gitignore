@@ -1,0 +1,33 @@
+# Flutter e Dart
+.dart_tool/
+.flutter-plugins*
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+
+# Editores e arquivos locais
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.log
+.DS_Store
+Thumbs.db
+
+# Android
+**/.gradle/
+/android/local.properties
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/key.properties
+*.keystore
+*.jks
+
+# Saidas de compilacao
+*.class
+app.*.symbols
+app.*.map.json

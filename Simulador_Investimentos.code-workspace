@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "Simulador de Investimentos",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "explorer.compactFolders": false
+  }
+}

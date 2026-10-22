@@ -1,0 +1,35 @@
+{
+  "name": "Investe — Simulador de Investimentos",
+  "short_name": "Investe",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F4F7F7",
+  "theme_color": "#007D69",
+  "description": "Compare dois investimentos e acompanhe os rendimentos mês a mês.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
